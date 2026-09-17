@@ -179,6 +179,14 @@ a {
     align-items: center;
     justify-content: center;
 }
+.hero-avatar img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+    box-shadow: 0 0 50px rgba(34, 211, 238, 0.12);
+}
 
 .avatar-circle {
     width: 230px;
